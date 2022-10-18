@@ -1,0 +1,276 @@
+/* body{
+    font-family: 'Montserrat';
+} */
+
+
+#title{
+    background-color: #ff4c68;
+}
+.navbar-brand{
+    margin-left: 0px ; 
+    font-family: "Ubuntu";
+}
+
+.navbar-nav li{
+    padding: 0 20px;
+    font-size: large;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    /* font-family: "Montserrat-Light"; */
+}
+/* 
+#iphone-img{
+    position: absolute;
+    z-index: -1;
+} */
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+.top-container{
+    margin-top: 100px;
+}
+
+.download-button{
+    margin: 30px 20px 30px 0;
+    
+    font-family: sans-serif;
+    border-radius: 5px;
+}
+
+/* .button-top-left{
+    display: inline-block;
+}
+
+.button-top-right{
+    margin-left: 30px;
+} */
+
+h3{
+    font-family: 'Ubuntu', sans-serif;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    font-size: 3.5rem;
+    color: white;
+}
+
+#iphone-img{
+    transform: rotate(25deg);
+    width: 20%;
+    position: absolute;
+    right: 25%;
+    /* margin-bottom: -60%; */
+    /* z-index: -1; */
+}
+
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    /* z-index: 1; */
+}
+
+.features-icon{
+    /* margin-left: 20px; */
+    color: #ef8172;
+    /* float: left; */
+    text-align: center;
+    margin-bottom: 1rem;
+    
+}
+
+.features-icon:hover{
+    color: #ff4c68;
+}
+
+/* #features{
+    position: absolute;
+    background-color: #fff;
+} */
+
+.feat-p{
+    clear: left;
+    text-align: center;
+    padding: 0 20%;
+    color: gray;
+}
+
+
+
+.feature-heading{
+    /* clear: left; */
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Montserrat';
+}
+
+.feature-box{
+    text-align: center;
+}
+
+#testimonials{
+    text-align: center;
+    padding: 7% 15%;
+    background-color: #ef8172;
+    
+}
+
+em{
+    color: #fff;
+}
+
+.testm-heading{
+    font-size: 3rem;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Montserrat';
+}
+
+#dog-img{
+    margin-top: 3%;
+    width: 10%;
+    border-radius: 100%;
+}
+
+.testimonial-imgs{
+    margin: 10% 3% 0;
+    width: 15%;
+}
+
+/* #carousel{
+    text-align: center;
+    padding: 7% 15%;
+    background-color : #ef8172;
+} */
+
+.carousel-content{
+    text-align: center;
+    padding: 7% 15%;
+    background-color : #ef8172;
+}
+
+#testm-dog-img{
+    margin-top: 5%;
+    border-radius: 10px;
+}
+
+/* .card-group{
+    display: inline-block;
+} */
+
+.price-buttons{
+    padding: 3% 2%;
+}
+
+#price{
+    padding: 100px;
+    text-align: center;
+}
+
+.card-text{
+    text-align: center;
+}
+
+#price-heading{
+    font-weight: bold;
+    font-size: 3rem;
+    font-family: 'Montserrat';
+}
+
+#price-subhead{
+    color: grey;
+}
+
+#cta{
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 7% 20%;
+}
+
+#footer-heading{
+    font-weight: bold;
+    font-family: 'Montserrat';
+    font-size: 3rem;
+}
+
+footer{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 7% 15%;
+}
+
+#footer-buttons{
+    text-align: center;
+    margin-top: 60px;
+    /* width: 400px; */
+    margin-left: 20px;
+}
+
+#footer-icons i{
+    margin-right: 10px;
+    margin-left: 15px;
+}
+
+@media (max-width:992px){
+
+    #title{
+        text-align: center;
+    }
+    #iphone-img{
+        position: static;
+        /* z-index: ; */
+        transform: rotate(0);
+        width: 40%;
+    }
+}
+
+@media (max-width: 700px){
+    #iphone-img{
+        width: 70%;
+        position: relative;
+        margin-top: -100px;
+        margin-left: 150px;
+        z-index: 0;
+        text-align: center;
+    }
+    #title{
+        padding-bottom: 150px;
+    }
+    #home-heading{
+        position: absolute;
+        z-index: 1;
+        /* margin-right: 75px; */
+        /* margin-top: 50px; */
+        /* color: red !important;  */
+        /* padding: 0 -30px; */
+        /* font-size: 100px; */
+    }
+
+    #home-buttons{
+        z-index: 0;
+        position: absolute;
+        margin-top: 640px;
+        margin-left: 55px;
+    }
+}
+
+@media (max-width:700px){
+    #home-heading{
+        display: inline-grid;
+        margin-left: -350px;
+        margin-top: 170px;
+        /* color: #ff4c68; */
+        font-size: 6rem;
+    }
+    #iphone-img{
+        display: inline-grid;
+        margin-top: 0px;
+    }
+}
